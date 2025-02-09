@@ -69,18 +69,18 @@ fireworks-ai/
 ```
 
 ## 🔍 Usage Guide
-1. Select Document Type
-Choose between passport or driver's license verification
-2. Upload Document Image
-Supported formats: JPG, JPEG, PNG (max 200MB)
-3. View Results
-- First-time upload: AI processing (10-15 sec)
-- Repeat upload: Instant cached results
-- Output includes key fields in formatted layout
-4. Data Storage
-Processed documents stored in:
-- `data/passports/*.json` for passports
-- `data/licenses/*.json` for driver's licenses
+- Select Document Type
+    - Choose between passport or driver's license verification
+- Upload Document Image
+    - Supported formats: JPG, JPEG, PNG (max 200MB)
+- View Results
+    - First-time upload: AI processing (10-15 sec)
+    - Repeat upload: Instant cached results
+    - Output includes key fields in formatted layout
+- Data Storage
+    - Processed documents stored in:
+        - `data/passports/*.json` for passports
+        - `data/licenses/*.json` for driver's licenses
 
 ## 🛠️ Development
 Prerequisites
@@ -103,7 +103,3 @@ This PoV implementation:
 
 ## 🚨 Disclaimer
 This Proof-of-Value (PoV) implementation is for demonstration purposes only. It is not intended for production use and should not be used with real customer data. Always conduct thorough security reviews before deploying AI solutions in regulated environments.
-
-
-
-
