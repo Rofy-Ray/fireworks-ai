@@ -1,5 +1,3 @@
-# Fireworks AI
-
 # 🔥 Fireworks AI KYC Identity Verification PoV
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io)
@@ -37,8 +35,8 @@ An end-to-end Proof-of-Value solution for identity document verification using F
 ### Quick Start
 ```bash
 # Clone repository
-git clone https://github.com/your-org/fireworks-kyc-pov.git
-cd fireworks-kyc-pov
+git clone https://github.com/Rofy-Ray/fireworks-ai.git
+cd fireworks-ai
 
 # Create virtual environment
 python -m venv venv
@@ -53,3 +51,18 @@ echo "FIREWORKS_API_KEY=your-api-key-here" > .env
 
 # Launch application
 streamlit run app.py
+
+## 📂 Project Structure
+
+kyc-pov/
+├── `app.py`                 # Main Streamlit application
+├── `utils/`
+│   ├── `fireworks_client.py` # Fireworks API integration
+│   └── `layout.py`          # Response formatting utilities
+├── `data/`                  # Processed document storage
+│   ├── `passports/`         # JSON outputs for passport scans
+│   └── `licenses/`          # JSON outputs for driver's licenses
+├── `.env`                   # API key configuration
+├── `requirements.txt`       # Python dependencies
+└── `README.md`              # This document
+
