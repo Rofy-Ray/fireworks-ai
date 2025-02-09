@@ -82,18 +82,6 @@ fireworks-ai/
         - `data/passports/*.json` for passports
         - `data/licenses/*.json` for driver's licenses
 
-## 🛠️ Development
-Prerequisites
-- Python 3.8+
-- Fireworks AI API key
-- Basic Streamlit knowledge
-
-Contribution Guidelines
-1. Create feature branch from `main`
-2. Add tests for new functionality
-3. Update documentation accordingly
-4. Submit PR with detailed description
-
 ## 🛡️ Security Note
 This PoV implementation:
 - Does NOT encrypt stored JSON data
