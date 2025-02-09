@@ -54,7 +54,7 @@ streamlit run app.py
 ```
 
 ## 📂 Project Structure
-
+```
 fireworks-ai/
 ├── `app.py`                 # Main Streamlit application
 ├── `utils/`
@@ -66,3 +66,6 @@ fireworks-ai/
 ├── `.env`                   # API key configuration
 ├── `requirements.txt`       # Python dependencies
 └── `README.md`              # This document
+```
+
+## 🔍 Usage Guide
