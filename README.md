@@ -51,10 +51,11 @@ echo "FIREWORKS_API_KEY=your-api-key-here" > .env
 
 # Launch application
 streamlit run app.py
+```
 
 ## 📂 Project Structure
 
-kyc-pov/
+fireworks-ai/
 ├── `app.py`                 # Main Streamlit application
 ├── `utils/`
 │   ├── `fireworks_client.py` # Fireworks API integration
@@ -65,4 +66,3 @@ kyc-pov/
 ├── `.env`                   # API key configuration
 ├── `requirements.txt`       # Python dependencies
 └── `README.md`              # This document
-
