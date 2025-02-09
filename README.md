@@ -56,16 +56,54 @@ streamlit run app.py
 ## 📂 Project Structure
 ```
 fireworks-ai/
-├── `app.py`                 # Main Streamlit application
-├── `utils/`
-│   ├── `fireworks_client.py` # Fireworks API integration
-│   └── `layout.py`          # Response formatting utilities
-├── `data/`                  # Processed document storage
-│   ├── `passports/`         # JSON outputs for passport scans
-│   └── `licenses/`          # JSON outputs for driver's licenses
-├── `.env`                   # API key configuration
-├── `requirements.txt`       # Python dependencies
-└── `README.md`              # This document
+├── app.py                 # Main Streamlit application
+├── utils/                 # Utility functions
+│   ├── fireworks_client.py # Fireworks API integration
+│   └── layout.py          # Response formatting utilities
+├── data/                  # Processed document storage
+│   ├── passports/         # JSON outputs for passport scans
+│   └── licenses/          # JSON outputs for driver's licenses
+├── .env                   # API key configuration
+├── requirements.txt       # Python dependencies
+└── README.md              # This document
 ```
 
 ## 🔍 Usage Guide
+1. Select Document Type
+Choose between passport or driver's license verification
+2. Upload Document Image
+Supported formats: JPG, JPEG, PNG (max 200MB)
+3. View Results
+- First-time upload: AI processing (10-15 sec)
+- Repeat upload: Instant cached results
+- Output includes key fields in formatted layout
+4. Data Storage
+Processed documents stored in:
+- `data/passports/*.json` for passports
+- `data/licenses/*.json` for driver's licenses
+
+## 🛠️ Development
+Prerequisites
+- Python 3.8+
+- Fireworks AI API key
+- Basic Streamlit knowledge
+
+Contribution Guidelines
+1. Create feature branch from `main`
+2. Add tests for new functionality
+3. Update documentation accordingly
+4. Submit PR with detailed description
+
+## 🛡️ Security Note
+This PoV implementation:
+- Does NOT encrypt stored JSON data
+- Uses ephemeral storage only
+- Requires proper security implementation for production use
+- Should not be used with real customer data
+
+## 🚨 Disclaimer
+This Proof-of-Value (PoV) implementation is for demonstration purposes only. It is not intended for production use and should not be used with real customer data. Always conduct thorough security reviews before deploying AI solutions in regulated environments.
+
+
+
+
