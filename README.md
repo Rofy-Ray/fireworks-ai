@@ -1,9 +1,5 @@
 # 🔥 Fireworks AI KYC Identity Verification PoV
 
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io)
-[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Fireworks.ai](https://img.shields.io/badge/Fireworks.ai-FF6F00?style=for-the-badge&logo=firebase&logoColor=white)](https://fireworks.ai)
-
 An end-to-end Proof-of-Value solution for identity document verification using Fireworks AI's multimodal LLMs. Automates KYC processes for Financial Services Institutions (FSI) by extracting structured data from passports and driver's licenses.
 
 **Live Demo**: [https://fireworks-ai.onrender.com/](https://fireworks-ai.onrender.com/)  
@@ -74,7 +70,7 @@ fireworks-ai/
 - Upload Document Image
     - Supported formats: JPG, JPEG, PNG (max 200MB)
 - View Results
-    - First-time upload: AI processing (10-15 sec)
+    - First-time upload: AI processing (3-5 sec)
     - Repeat upload: Instant cached results
     - Output includes key fields in formatted layout
 - Data Storage
